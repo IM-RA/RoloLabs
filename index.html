@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RoloLabs</title>
+
+    <!-- Bootstrap stylesheet -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Material Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- custom style sheets -->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- Fontawsome -->
+    <script
+      src="https://kit.fontawesome.com/083abca75b.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Reveal js -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- javascript -->
+    <script src="./app.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Container -->
+    <div class="Container">
+      <!-- Navbar -->
+      <div class="Navbar">
+        <div class="left">
+          <img id="logo" src="./assets/images/logo.png" alt="logo" />
+          <h1><span>Rolo</span>Labs</h1>
+        </div>
+        <div class="right">
+          <a href="">Home</a>
+          <a href="#carouselExampleIndicators">About us</a>
+          <a href="#Footer">Contact us</a>
+        </div>
+      </div>
+      <!-- End of Navbar -->
+
+      <!-- Title Card -->
+      <div class="titleCard">
+        <div class="swipe">
+          <h1><span>Rolo</span>Labs</h1>
+        </div>
+        <div class="swipe swipe--delay">
+          <p>Powered by IMRobonix and Autobots Inc.</p>
+        </div>
+      </div>
+      <!-- End of title card -->
+      <!-- carousel -->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="4"
+        aria-label="Slide 5"
+      ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <div class="Item one" id="carouse1">
+            </div>
+            <div class="Itemtext">
+              <p id="Itemtext" style="color: rgb(36, 36, 36);text-align:center;" class="One">Mobile Laboratory which helps to connect the students with industry professionals</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="Item two">              
+            </div>
+            <div class="Itemtext">
+              <p id="Itemtext" style="color: rgb(36, 36, 36);text-align: center;">World’s First Robotic Mobile Laboratory with enhanced industrial robotic system</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="Item three">              
+            </div>
+            <div class="Itemtext">
+              <p id="Itemtext" style="color: rgb(36, 36, 36);text-align: center;">Hands-on Training at your convenience... </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="Item four">              
+            </div>
+            <div class="Itemtext">
+              <p id="Itemtext" style="color: rgb(36, 36, 36);text-align: center;">Our Team </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="Item five">              
+            </div>
+            <div class="Itemtext">
+              <p id="Itemtext" style="color: rgb(36, 36, 36);text-align: center;">Professionalized industrial experts to nourish students’ hand-on experience with real-time robot. </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- End of carousel -->
+      <!-- Mission and Vision statements -->
+      <div class="missionVisionstatements" id="missionvision">
+        <!-- Mission -->
+        <div class="Mission">
+          <div class="mission">
+            <h2>Mission</h2>
+            <ul>
+              <li>
+                <p>To be a centre of education excellence in Robotics programs by the
+                global industries and other Education institute</p>
+              </li>
+              <li>
+                <p>To sharpen student knowledge in the field of industrial robotics.</p>
+              </li>
+              <li>
+                <p>To enhance students to achieve their research knowledge in
+                robotics.</p>
+              </li>
+              <li><p>To provide unparalleled Hands-on excellence.</p></li>
+              <li>
+                <p>To take pride in, praise, promote and support all that is
+                excellent in robotics.</p>
+              </li>
+            </ul>
+          </div>
+          <video autoplay muted loop id='hello-robot' class='hello-robot'>
+            <source src="./assets/videos/robot-hello.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- Vision -->
+        <div class="Vision">
+          <video autoplay loop muted id="robo" class='robo'>
+            <source src="./assets/videos/robo-3d.mp4" type="video/mp4">
+          </video>        
+          <div class="vision">
+            <h2>Vision</h2>
+            <p>
+              Provide the knowledge and prosperity through high quality education
+              to next generation of visionaries by illuminating them to perform in
+              Robotics & Technologies and to have leadership management role in
+              industry and research institutions.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- End of mission and vision statements -->
+
+      <!-- Testimonials -->
+      <div class="testimonialTitle">
+        <h1>Our Testimonials</h1>
+      </div>
+      <div class="testimonials">
+        <!-- Testimony 1 -->
+        <div class="testimony">
+          <div class="testimonyImage">
+            <img src="./assets/images/testimonials/test1.png" alt="Testimony" />
+          </div>
+          <div class="testimonyContent">
+            <p>
+              “ We had a very good experience in this workshop. The staffs were very co-operative and their demonstration were clear."<br/>
+              <a style="font-size: medium;text-align: center;" href="https://drive.google.com/file/d/1_jTb87SQtd9CArZLz77F5AhUfhlKwKd6/view?usp=sharing" target="blank">Watch Video >></a>
+            </p>
+            <p style="text-align: right;">
+              - Haritha <br>
+              <span style="font-size: medium; color: black;">Panimalar Engg. College</span>
+            </p>
+          </div>
+        </div>
+        <!-- End of Testimony 1 -->
+        <!-- Testimony 2 -->
+        <div class="testimony">
+          <div class="testimonyImage">
+            <img src="./assets/images/testimonials/test2.png" alt="Testimony" />
+          </div>
+          <div class="testimonyContent">
+            <p>
+              “The workshop is great. I had a lot of interaction with mentors. Initially I don’t know anything about robotics now I am confident about basics of robotics.”<br/>
+              <a style="font-size: medium;text-align: center;" href="https://drive.google.com/file/d/1qyjY0XQzNGc6QfNZudg280ZUlhYMn3xo/view?usp=sharing" target="blank">Watch Video >></a>
+            </p>
+            <p style="text-align: right;">
+              - Lakshmi Bala <br>
+              <span style="font-size: medium; color: black;">Kongu Engg. College</span>
+            </p>
+          </div>
+        </div>
+        <!-- End of Testimony 2 -->
+        <!-- Testimony 3 -->
+        <div class="testimony">
+          <div class="testimonyImage">
+            <img src="./assets/images/testimonials/test3.png" alt="Testimony" />
+          </div>
+          <div class="testimonyContent">
+            <p>
+              “ A great motivational workshop and it gives lot of insight about the scope in robotics.”<br/>
+              <a style="font-size: medium;text-align: center;" href="https://drive.google.com/file/d/1htSJYJ16cokj4Gc5lurbXGxNU0c8-TiN/view?usp=sharing" target="blank">Watch Video >></a>
+            </p>
+            <p style="text-align: right;">
+              - Rahul <br>
+              <span style="font-size: medium; color: black;">A Final year EEE student</span>
+            </p>
+          </div>
+        </div>
+        <!-- End of Testimony 3 -->
+        <!-- Testimony 4 -->
+        <div class="testimony">
+          <div class="testimonyImage">
+            <img src="./assets/images/testimonials/test4.png" alt="Testimony" />
+          </div>
+          <div class="testimonyContent">
+            <p>
+              "An entirely new experience. I am bit nervous at starting but Iyyapan sir gave confidence to me.”<br/>
+              <a style="font-size: medium;text-align: center;" href="https://drive.google.com/file/d/1JUmGR_Dk31uRkQsMrS7It3yEwRwZNUvn/view?usp=sharing" target="blank">Watch Video >></a>
+            </p>
+            <p style="text-align: right;">
+              - Rajeshwaran <br>
+              <span style="font-size: medium; color: black;">Kongu Engg. College</span>
+            </p>
+          </div>
+        </div>
+        <!-- End of Testimony 4 -->
+        <!-- Testimony 5 -->
+        <div class="testimony">
+          <div class="testimonyImage">
+            <img src="./assets/images/testimonials/test5.png" alt="Testimony" />
+          </div>
+          <div class="testimonyContent">
+            <p>
+              “I attended this workshop with zero knowledge now  I learnt many real time application of kinematics and dynamics.”<br/>
+              <a style="font-size: medium;text-align: center;" href="https://drive.google.com/file/d/1Ei18ReXJ-LeDaeohdBIqiZi8vfP6t26W/view?usp=sharing" target="blank">Watch Video >></a>
+            </p>
+            <p style="text-align: right;">
+              - Dinesh <br>
+              <span style="font-size: medium; color: black;">GCE Salem</span>
+            </p>
+          </div>
+        </div>
+        <!-- End of Testimony 5 -->
+      </div>
+                      
+      <!-- End of testimonials -->
+      <!-- Footer -->
+      <div class="Footer" id="Footer">
+        <div class="FooterLeft">
+          <p>Scan the Qr Code for the link</p>
+          <img src="./assets/images/LinkQr.png" alt="LinkQr" />
+        </div>
+        <div class="FooterDivider"></div>
+        <div class="FooterRight">
+          <div class="FooterTitle">Contact Us:</div>
+          <div class="FooterContactInfo">
+            <div class="Contacts">
+              <span class="material-icons"> email </span><br />
+              <p>info@imrobotics.in</p>
+              <span class="material-icons"> call </span>
+              <p>+91-9600963306</p>
+            </div>
+            <div class="Address">
+              <span class="material-icons"> location_on </span><br />
+              <p>
+                Second floor, AC Tech-Platinum Jubilee building,<br />
+                Anna University <br />
+                Chennai-600025
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Footer -->
+      <!-- Social Media  -->
+      <div class="socialMedia">
+        <div id="Links">
+          <!-- <a href="">
+            <i class="icon-footer fab fa-twitter"></i>
+          </a>
+          <a href="">
+            <i class="icon-footer fab fa-facebook-f"></i>
+          </a> -->
+          <a href="https://instagram.com/rololabs?igshid=YmMyMTA2M2Y=" target="_blank">
+            <i class="icon-footer fab fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/company/rolo-labs/" target="_blank">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="copyrightText">
+          <p>Copyright © RoloLabs.</p>
+        </div>
+      </div>
+    </div>
+    <!-- End of container -->
+  </body>
+</html>
